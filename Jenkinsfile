@@ -38,7 +38,7 @@ node {
 
         docker.withRegistry('https://hub.docker.com/', 'dockerHub') {
 
-            app.push("${env.1.0.0}")
+            app.push("${env.1}")
 
             app.push("latest")
 
