@@ -38,7 +38,7 @@ node {
 
         docker.withRegistry('https://hub.docker.com/', 'dockerHub') {
 
-            app.push("${env.BUILD_NUMBER}")
+            app.push("${env.7-onbuild}")
 
             app.push("latest")
 
